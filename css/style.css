@@ -50,13 +50,16 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	box-sizing: border-box;
 }
 body{
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	width: 100%;
+	font-family: 'Mulish', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
 }
 .header{
 	display: flex;
 	align-items: center;
 	padding: 20px 70px 20px 32px;
+	margin: 0 0 30px 0;
 }
 .burger{
 	margin: 0 28px 0 0;
@@ -84,7 +87,6 @@ body{
 	margin: 0 59px 0 0;
 }
 .search{
-	font-size: 16px;
 	max-width: 832px;
 	width: 50%;
 	background: #EBEBEB;
@@ -96,7 +98,7 @@ body{
 }
 .search_input{
 	padding: 12px 23px;
-	
+	width: 100%;
 	background: transparent;
 	border: none;
 }
@@ -137,7 +139,44 @@ body{
 	display: block;
 	width: 40px;
 	height: 40px;
-	
 	border: 1px solid #000;
+	border-radius: 50%;
+}
+.sidbar{
+	padding: 0 0 0 31px;
+}
+.nav_menu{
+	margin: 0 0 60px 0;
+}
+.nav_item{
+	margin: 0 0 28px 0;
+	color: #898989;
+}
+.nav_link{
+	color: #898989;
+	display: flex;
+	align-items: center;
+}
+.nav_link:hover{
+	color: #FF0000;
+}
+.nav_link:hover .nav_icon{
+	fill: #FF0000;
+}
+.nav_icon{
+	fill: #898989;
+}
+.nav_text{
+	margin: 0 0 0 13px;
+}
+.nav_title{
+	margin: 0 0 31px 0px;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 23px
+}
+.nav_img{
+	width: 26px;
+	height: 26px;
 	border-radius: 50%;
 }
